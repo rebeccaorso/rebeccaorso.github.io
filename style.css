@@ -1,0 +1,87 @@
+body {
+  background-color: #E8D2AB !important; /* Imposta lo sfondo rosso */
+}
+
+h1 {
+  color: #730800;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.lead {
+  color: #730800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff9e2 !important;
+}
+
+.btnport {
+  background-color: #140040 !important;
+  color: #f2f2f2 !important;
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Aggiunge uno spazio tra le card */
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .card-2,
+  .card-4,
+  .card-6,
+  .card-8 {
+    margin-top: 40px; /* Aggiunge uno spazio sopra */
+  }
+
+  .header {
+    height: 100vh; /* Imposta l'altezza al 100% dell'altezza della finestra */
+    display: flex; /* Abilita il layout flessibile */
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    align-items: center; /* Centra verticalmente il contenuto */
+    flex-direction: column; /* Imposta il contenuto in colonna */
+    background-image:url('img/sfondo.jpg');
+  }
+
+
+
+  .navbar {
+    background-color:  #D9BA82 !important; 
+    min-height: 90px;
+    -webkit-box-shadow: 1px 14px 21px 0px #D9BA82; 
+    box-shadow: 1px 14px 21px 0px #D9BA82;
+  }
+
+  .me {
+    margin-top: 50px;
+    background-color: #E8D2AB !important;
+
+  }
+
+  .presentazione {
+    margin-top: 30px;
+  }
+
+  .portfolio {
+    margin-top: 30px;
+    background-color: #E6D5B7 !important;
+  }
+
+  .contact {
+    background-image:url('img/sfondo.jpg');
+  }
+
+  .contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%); /* Sfumatura verticale */
+}
+
+.btnskill {
+  margin-bottom: 10px;
+}
