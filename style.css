@@ -94,6 +94,10 @@ border-radius: 15px;
 
 .btnskill {
   margin-bottom: 10px;
+  margin-right: 8px;
+  height: 50px;
+  font-size: large;
+  font-weight: 600;
 }
 
 /* Aggiungi la classe CSS per lo sfondo della card */
@@ -118,3 +122,24 @@ border-radius: 15px;
 .form {
   margin-top: 40px;
 }
+
+.presenta{
+  text-align: justify;
+}
+
+.invia {
+  background-color: #730800;
+  border-color: #730800;
+}
+
+.btn-primary.invia:focus,
+  .btn-primary.invia:active,
+  .btn-primary.invia:hover {
+    background-color: #730800 !important;
+    border-color: #730800 !important;
+  }
+
+  .tratto{
+    width: 60px; 
+    height: auto;
+  }

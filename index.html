@@ -10,31 +10,28 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700&display=swap');
   </style>
-  <link rel="stylesheet" href="style.css"> <!-- Includi il tuo file CSS esterno -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand" href="#">Rebecca Orso Giacone</a>
+    <a class="navbar-brand" href="https://github.com/rebeccaorso">Rebecca Orso Giacone</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto"> <!-- Aggiunto mr-auto qui -->
+      <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#presentation">Chi sono</a>
-        <a class="nav-item nav-link" href="#portfolio">Progetti</a>
+        <a class="nav-item nav-link" href="#me">Chi sono</a>
+        <a class="nav-item nav-link" href="#portfolio">Progetti</a> <!-- Aggiunta dell'attributo href -->
         <a class="nav-item nav-link" href="#contact">Contattami</a>
       </div>
     </div>
   </nav>
 
-
-
-  <!-- Intestazione -->
   <header class=" header bg-primary text-white text-center py-5 w-100">
     <div class="container-fluid">
       <div class="row justify-content-center">
@@ -42,70 +39,75 @@
           <h1 style="font-family: 'Montserrat', sans-serif;">CIAO, SONO REBECCA!</h1>
           <p class="lead">Sono un Junior Full Stack Developer determinata a creare applicazioni web complete e utili.
           </p>
-          <a href="#portfolio" class="btn btnport btn-light mt-3">Scopri i miei progetti</a>
         </div>
       </div>
     </div>
   </header>
-
 
   <section class="me" id="me">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h1 style="font-family: 'Montserrat', sans-serif;">CHI SONO </h1>
-          <h2>-</h2>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iusto?</p>
+          <img src="img/Trattino.png" alt="Descrizione dell'immagine" class="tratto">
+          <p class="lead">Qui troverai ulteriori informazioni su di me, sul mio lavoro e sulle mie competenze attuali.
+          </p>
         </div>
       </div>
 
       <div class="row presentazione">
         <div class="col-md-2"></div>
         <div class="col-md-4">
-          <div class="presentation mx-auto"> <!-- Aggiunta la classe mx-auto -->
+          <div class="presentation mx-auto">
             <h2>Presentazione</h2>
-            <p>Sono una Junior Full Stack Developer con un vivo interesse per l’innovazione tecnologica, focalizzata
-              principalmente sul backend.
-              Ho acquisito una solida base formativa attraverso un corso specialistico e un tirocinio nel settore. Sono
-              determinata a consolidare il mio percorso nel campo della programmazione, con l’obiettivo di contribuire
-              attivamente ai progetti all'interno di un ambiente di lavoro dinamico e stimolante.</p>
+            <p class="presenta">Sono una giovane sviluppatrice web con una forte passione per l'ambito del backend e dei
+              database. Attraverso la sezione Progetti, puoi esplorare alcuni dei miei lavori recenti e vedere come
+              applico le mie competenze tecniche per creare soluzioni efficaci.</p>
+            <p class="presenta"> Come Junior Full Stack Developer, mi sono dedicata soprattutto alla parte del backend,
+              dove mi sono concentrata sull'ottimizzazione dei database e sulla gestione dei dati. Questo settore mi
+              affascina particolarmente, e ho acquisito una solida formazione attraverso corsi specialistici e tirocini
+              nel campo. </p>
+            <p class="presenta"> La mia determinazione nel consolidare il mio percorso professionale nel mondo della
+              programmazione mi spinge a cercare opportunità che mi permettano di contribuire attivamente ai progetti
+              all'interno di un ambiente di lavoro dinamico e stimolante. Sono entusiasta di mettere in pratica le mie
+              competenze e crescere professionalmente nel campo del web development.</p>
           </div>
         </div>
-
+        <div class="col-md-1"></div>
         <div class="col-md-4">
-          <div class="skills mx-auto"> <!-- Aggiunta la classe mx-auto -->
+          <div class="skills mx-auto">
             <h2>Skills</h2>
-            <ul>
+            <il>
 
               <button type="button" class="btn btn-light btnskill" disabled> SQL </button>
               <button type="button" class="btn btn-light btnskill" disabled> MongoDB </button>
               <button type="button" class="btn btn-light btnskill" disabled> Oracle DB </button>
-              <button type="button" class="btn btn-light btnskill" disabled> Java </button>
               <button type="button" class="btn btn-light btnskill" disabled> Spring Boot </button>
+              <button type="button" class="btn btn-light btnskill" disabled> Java </button>
               <button type="button" class="btn btn-light btnskill" disabled> JavaScript </button>
               <button type="button" class="btn btn-light btnskill" disabled> Angular </button>
               <button type="button" class="btn btn-light btnskill" disabled> HTML </button>
               <button type="button" class="btn btn-light btnskill" disabled> CSS </button>
               <button type="button" class="btn btn-light btnskill" disabled> Bootstrap </button>
-            </ul>
+              <button type="button" class="btn btn-light btnskill" disabled> GIT </button>
+              <button type="button" class="btn btn-light btnskill" disabled> Phyton </button>
+            </il>
           </div>
         </div>
-        <div class="col-md-2"></div>
+
       </div>
     </div>
   </section>
 
-
-  <!-- Portfolio Grid -->
   <section class="portfolio" id="portfolio">
-    <div class="container ">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <br>
           <br>
           <h1 style="font-family: 'Montserrat', sans-serif;">PROGETTI</h1>
-          <h2>-</h2>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iusto?</p>
+          <img src="img/Trattino.png" alt="Descrizione dell'immagine" class="tratto">
+          <p class="lead">Qui troverai alcuni dei miei progetti personali sviluppati nel tempo. </p>
         </div>
       </div>
       <div class="row">
@@ -126,7 +128,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-5 card-4"> <!-- Aggiungi la classe card-4 -->
+          <div class="card mb-5 card-4"> 
 
           </div>
         </div>
@@ -134,22 +136,22 @@
       <!-- Seconda riga -->
       <div class="row">
         <div class="col-md-3">
-          <div class="card mb-5 card-5"> <!-- Aggiungi la classe card-5 -->
+          <div class="card mb-5 card-5"> 
 
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-5 card-6"> <!-- Aggiungi la classe card-6 -->
+          <div class="card mb-5 card-6">
 
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-5 card-7"> <!-- Aggiungi la classe card-7 -->
+          <div class="card mb-5 card-7"> 
 
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-5 card-8"> <!-- Aggiungi la classe card-8 -->
+          <div class="card mb-5 card-8"> 
 
           </div>
         </div>
@@ -157,7 +159,6 @@
     </div>
   </section>
 
-  <!-- Aggiungi altre sezioni qui -->
   <section class="contact" id="contact">
     <div class="container">
         <div class="row">
@@ -165,25 +166,24 @@
                 <h1 style="font-family: 'Montserrat', sans-serif;">CONTATTAMI</h1>
                 <h5 style="font-family: 'Montserrat', sans-serif;">Vuoi condividere qualcosa o hai domande? Sono qui per te!</h5>
                 <h5 style="font-family: 'Montserrat', sans-serif;">Scrivimi direttamente qui sotto.</h5>
-              </div>
-            <div class="col-md-6 offset-md-3 form">
+            </div>
+            <div class="col-md-6 offset-md-3 form text-md-right"> 
                 <form id="contactForm">
                     <div class="form-group">
                         <textarea class="form-control" name="message" id="message" rows="8" required></textarea>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="sendEmail()">Invia</button>
-                </form>
+                    <button type="button" class="btn btn-primary invia" onclick="sendEmail()">Invia</button> 
             </div>
         </div>
     </div>
 </section>
 
-</section>
-<footer class="footer">
-  <div class="container">
-    
-  </div>
-</footer>
+  </section>
+  <footer class="footer">
+    <div class="container">
+
+    </div>
+  </footer>
 
 
   <!-- Includi Bootstrap JavaScript e jQuery -->
