@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function sendEmail() {
-    let message = document.querySelector("#message").value;
+    let message = document.getElementById("message").value;
     let mailtoLink = "mailto:rebeccaorso@gmail.com?subject=Richiesta di contatto dal portfolio GitHub" + encodeURIComponent(message);
 
     window.location.href = mailtoLink;
