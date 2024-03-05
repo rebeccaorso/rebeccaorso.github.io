@@ -78,6 +78,10 @@ border-radius: 15px;
     background-image:url('img/sfondo.jpg');
   }
 
+  .footer{
+    margin-top: 30px;
+  }
+
   .contact::before {
     content: '';
     position: absolute;

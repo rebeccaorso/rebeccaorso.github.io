@@ -15,8 +15,8 @@ function sendEmail() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
-    
+
     let mailtoLink = "mailto:rebeccaorso@gmail.com?subject=Richiesta di contatto dal portfolio GitHub" + encodeURIComponent(message);
-    
+
     window.location.href = mailtoLink;
 }
