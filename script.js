@@ -1,4 +1,7 @@
 let aTeatro = document.querySelector("#aTeatro");
+let name = document.querySelector("#name");
+let email = document.querySelector("#email");
+let message = document.querySelector("#message");
 
 document.addEventListener("DOMContentLoaded", function () {
     let card = document.getElementById("aTeatro");
@@ -7,3 +10,4 @@ document.addEventListener("DOMContentLoaded", function () {
         window.open(url, "_blank");
     });
 });
+
