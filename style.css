@@ -33,6 +33,7 @@ h1 {
     border: 5px double rgba(115,8,0,0.82);
 border-radius: 15px;
   }
+
   .card-2,
   .card-4,
   .card-6,
@@ -48,8 +49,6 @@ border-radius: 15px;
     flex-direction: column; /* Imposta il contenuto in colonna */
     background-image:url('img/sfondo.jpg');
   }
-
-
 
   .navbar {
     background-color:  #D9BA82 !important; 
@@ -110,4 +109,6 @@ border-radius: 15px;
   background-image: url('img/wip.jpg');
 }
 
-
+.form {
+  margin-top: 40px;
+}
