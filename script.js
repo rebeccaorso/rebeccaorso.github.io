@@ -2,6 +2,7 @@ let aTeatro = document.querySelector("#aTeatro");
 let login = document.querySelector("#login")
 let name = document.querySelector("#name");
 let email = document.querySelector("#email");
+let library = document.querySelector("#library");
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -16,6 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let cardLogin = document.getElementById("login");
     cardLogin.addEventListener("click", function () {
         let url = "https://github.com/rebeccaorso/login_project";
+        window.open(url, "_blank");
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    let cardLibrary = document.getElementById("library");
+    cardLibrary.addEventListener("click", function () {
+        let url = "https://github.com/rebeccaorso/library";
         window.open(url, "_blank");
     });
 });
