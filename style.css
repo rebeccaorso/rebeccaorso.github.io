@@ -110,7 +110,9 @@ border-radius: 15px;
   background-image: url('img/login.jpg');
 }
 
-.card-3,
+.card-3 {
+  background-image: url('img/library.png');
+}
 .card-4,
 .card-5,
 .card-6,
