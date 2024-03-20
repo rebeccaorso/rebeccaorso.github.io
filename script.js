@@ -1,8 +1,8 @@
 let aTeatro = document.querySelector("#aTeatro");
+let library = document.querySelector("#library");
 let login = document.querySelector("#login")
 let name = document.querySelector("#name");
 let email = document.querySelector("#email");
-let library = document.querySelector("#library");
 
 
 document.addEventListener("DOMContentLoaded", function () {
